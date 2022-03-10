@@ -1,0 +1,41 @@
+
+body{
+    background-color: #FFE4E1;
+}
+
+/* Positioning
+----------------------------*/
+img{
+    border-radius: 50%;
+}
+
+a{
+    display: block;
+    margin-top: 100px;
+    background: black;
+    text-decoration: none;
+    color: #FFE4E1;
+}
+
+.main-content{
+    position: relative;
+    top: 11rem;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    padding: 0;
+}
+
+#name{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bio{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
