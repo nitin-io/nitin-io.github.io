@@ -3,159 +3,42 @@ body, html{
     height: 100%;
 }
 
-
 body{
     background-color: rgb(4, 1, 12);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Montserrat';
 }
 
-
-.box{
-    font-family: 'Roboto', sans-serif;
-    color: blanchedalmond;
-    /* position: relative;
-    top: 50px; */
-    margin: 0px auto;
-    margin-top: 0;
-    height: 800px;
+.big-heading{
+    font-weight: 900;
 }
 
-.box-2 {
-    background-color: blanchedalmond;
-    color: rgb(4, 1, 12);
-}
+    /* Navigation Bar */
 
-.box-4{
-    background-color: blanchedalmond;
-    text-align: center;
-}
-.content{
-    margin: 0 auto;
-    width: 1100px;
-    position: relative;
-    top: 40%;
-
-}
-#my_image{
-    float: right;
-    border-radius: 100%;
-    position: relative;
-    /* margin-right: 200px; */
-}
-
-h1{
-    position: relative;
-    top: 30px;
-    font-size: 3.7em;
-    margin-bottom: 0;
-}
-
-h2{
-    position: relative;
-    top: 30px;
-    font-size: 1.67em;
-    margin-top: 0;
-    font-weight: 100;
-}
-
-h3{
-    font-weight: 400;
-}
-
-header{
+.my-navbar {
     position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    width: 100%;
+}
+
+    /* Home Section */
+
+#home {
     text-align: center;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 14% 15%;
 }
 
-#header_button {
-    border: none;
-    background-color: rgba(0, 0, 0, 0.0);
-    text-align: center;
-    color: white;
+.home-content {
+    font-family: 'ubuntu';
 }
 
-#header_button a{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    font-weight: 500;
-    margin: 20px;
-    text-decoration: none;
-    color: white;
+#profile-picture {
+    border-radius: 100%;
 }
 
-.technologies_logo{
-    width: 350px;
-    position: relative;
-    bottom: 70px;
-    float: left;
-}
 
-.inner-content{
-    margin-left: 700px;
-}
+    /* Project Section */
 
-.hobbies-logo{
-    float: right;
-    height: 300;
-    width: 350;
-}
 
-@media screen and (max-width: 480px){
-    header{
-        padding: 50px;
-    }
 
-    #header_button {
-        font-size: 30px;
-        margin: 10px;
-    }
-
-    #my_image {
-        float: none;
-        width: 500px;
-        margin-bottom: 100px;
-        /* width: 350px; */
-    }
-
-    .hobbies-logo{
-        float: none;
-    }
-
-    .technologies_logo{
-        float: none;
-        margin-left: 35%;
-    }
-
-    .intro{
-        position: relative;
-        top: 30%;
-    }
-
-    .box {
-        height: 2100px;
-        width: 1100px;
-        text-align: center;
-    }
-
-    .box-2{
-        text-align: center;
-    }
-
-    h1{
-        font-size: 6em;
-    }
-    h2{
-        font-size: 2.5em;
-    }
-    .inner-content{
-        margin-left: 0;
-    }
-}
+    /* ContactMe Section */
