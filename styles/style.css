@@ -39,6 +39,32 @@ body{
 
     /* Project Section */
 
+#projects {
+    padding: 5%;
+    background-color: #fff;
+}
 
+.carousel-item {
+    padding: 5% 0;
+    text-align: center;
+}
+
+.project-img {
+    width: 800px;
+    border: 2px black solid;
+}
 
     /* ContactMe Section */
+
+#contact-me {
+    padding: 14% 15%;
+   text-align: center;
+}
+
+.link-icon {
+    margin: 0 20px;
+}
+
+.bottom-heading {
+    margin: 0 0 50px;
+}
