@@ -11,6 +11,10 @@ body{
     font-family: 'Montserrat';
 }
 
+a {
+    text-decoration: none;
+}
+
 .big-heading{
     font-weight: 900;
 }
@@ -21,6 +25,10 @@ body{
     position: fixed;
 }
 
+.github-profile-btn{
+    
+}
+
     /* Home Section */
 
 #home {
@@ -29,7 +37,7 @@ body{
 }
 
 .home-content {
-    font-family: 'ubuntu';
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 #profile-picture {
@@ -49,8 +57,15 @@ body{
     text-align: center;
 }
 
+.carousel-btn {
+    display: block;
+    margin: 2% auto;
+}
+
 .project-img {
     width: 800px;
+    height: 400px;
+    object-fit: scale-down;
     border: 2px black solid;
 }
 
