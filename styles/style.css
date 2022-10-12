@@ -13,6 +13,15 @@ body{
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
 }
 
 .big-heading{
@@ -26,14 +35,14 @@ a {
 }
 
 .github-profile-btn{
-    
+    font-family: 'Noto Sans Mono', monospace;
 }
 
     /* Home Section */
 
 #home {
     text-align: center;
-    padding: 14% 15%;
+    padding: 17% 15%;
 }
 
 .home-content {
@@ -48,7 +57,7 @@ a {
     /* Project Section */
 
 #projects {
-    padding: 5%;
+    padding: 1%;
     background-color: #fff;
 }
 
@@ -59,14 +68,13 @@ a {
 
 .carousel-btn {
     display: block;
-    margin: 2% auto;
+    margin: 10px auto;
 }
 
 .project-img {
-    width: 800px;
-    height: 400px;
+    width: 700px;
+    height: 350px;
     object-fit: scale-down;
-    border: 2px black solid;
 }
 
     /* ContactMe Section */
