@@ -1,104 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- <meta name="viewport" content="width=device-width">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1"> -->
-        <meta name="viewport" content="width=device-width">
-        <meta charset="UTF-8">
-        <title>Nitin</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Noto+Sans+Mono:wght@400;900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/2bf86bde89.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles/style.css">
-    </head>
-    <body>
-
-        <!-- Navigation Bar -->
-        
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-            <span class="nav-brand text-white github-profile-btn">
-                <button type="button" class="btn btn-primary ms-2">
-                    <i class="fa-brands fa-github fa-lg"></i>
-                    <a href="https://github.com/nitin-io" target="_blank" class="text-white">
-                        Github Profile</a>
-                </button>
-            </span>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a></li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item">
-                    <a href="#contact-me" class="nav-link">Contact Me</a></li>
-            </ul>
-        </nav>
-
-        <!-- Home Section -->
-                    
-    <section id="home" class="text-white container-fluid bg-black">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="images/nitin.jpg" alt="" width="200px" id="profile-picture">
-                </div>
-                <div class="col-lg-6 mt-4 home-content">
-                    <h1 class="big-heading">Hey, I'm Nitin</h1>
-                    <h2>A young-dumb Student & Technology Enthusiast</h2>
-                </div>
-            </div>
-
-    </section>
-
-        <!-- Projects Section -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin Chaudhary:Forever Student, Technology Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="introduction">
+            <h1>Hi There, I'm Nitin</h1>
+            <p>A young-dumb Student and Technology Enthusiast<b id="blink">_</b></p>
+        </div>
+    </header>
 
     <section id="projects">
-        <div id="carousel-div" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel-div" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel-div" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel-div" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="project-img" src="images/login-page-project-image.PNG" alt="Login Page">
-                    <button class="btn btn-dark carousel-btn btn-sm">
-                        <a href="https://nitin-io.github.io/login-page/" target="_blank">Visit Page</a>
-                    </button>
-                    <h2>Login Page</h2>
-                    <p>I created this using HTML and CSS.</p>
-                </div>
-                <div class="carousel-item">
-                    <img class="project-img" src="images/tindog-project-image.PNG" alt="TinDog">
-                    <button class="btn btn-dark carousel-btn btn-sm">
-                        <a href="https://nitin-io.github.io/TinDog/" target="_blank">Visit Page</a>
-                    </button>
-                    <h2>TinDog-Website</h2>
-                    <p>I created this in Web Developer Bootcamp on Udemy.</p>
-                </div>
-                <div class="carousel-item active">
-                    <img class="project-img" src="images/magic-bulb-project-image.PNG" alt="TinDog">
-                    <button class="btn btn-dark carousel-btn btn-sm">
-                        <a href="https://nitin-io.github.io/magic-bulb/" target="_blank">Visit Page</a>
-                    </button>
-                    <h2>Magic Bulb</h2>
-                    <p>This is a magic bulb.</p>
-                </div>
-            </div>
+        <h1 class="big-heading project-heading">Projects</h1>
+
+        <div class="projects-list">
+            <ul>
+                <li><a href="#" class="project-btn">Magic Bulb</a></li>
+                <li><a href="#" class="project-btn">TinDog</a></li>
+                <li><a href="#" class="project-btn">Login Page</a></li>
+                <li><a href="#" class="project-btn">ToDo Web App</a></li>
+                <li><a href="#" class="project-btn">Example</a></li>
+                <li><a href="#" class="project-btn">Example2</a></li>
+                <li><a href="#" class="project-btn">Example3</a></li>
+                <li><a href="#" class="project-btn">Example4</a></li>
+            </ul>
         </div>
     </section>
 
-        <!-- Contact Me Section -->
-
-        <section id="contact-me">
-            <h2 class="bottom-heading">Contact Me</h2>
-            <a href="mailto:nitin.io@outlook.com" target="_blank">
-                <i class="fa-solid fa-square-envelope fa-2xl link-icon"></i></a>
-            <a href="https://twitter.com/nitin_io" target="_blank">
-                <i class="fa-brands fa-square-twitter fa-2xl link-icon"></i></a>
-            <a href="https://www.linkedin.com/in/nitinchaudhary01/" target="_blank">
-                <i class="fa-brands fa-linkedin fa-2xl link-icon"></i></a>
-        </section>
+    <footer>
+        <h1>Let's connect & make creative things.</h1>
+        <ul class="social-media-icons">
+            <li><a class="social-media-icon href="https://github.com/nitin-io">
+                <i class="fa-brands fa-github fa-2xl"></i></a></li>
+            <li><a class="social-media-icon href="https://dev.to/nitinchaudhary">
+                <i class="fa-brands fa-dev fa-2xl"></i></a></li>
+            <li><a class="social-media-icon href="https://www.npmjs.com/~nitinchaudhary">
+                <i class="fa-brands fa-npm fa-2xl"></i></a></li>
+            <li><a class="social-media-icon href="https://twitter.com/nitin_io">
+                <i class="fa-brands fa-twitter"></i></a></li>
+            <li><a class="social-media-icon href="https://www.linkedin.com/in/nitinchaudhary01/">
+                <i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+            <li><a class="social-media-icon href="https://codepen.io/_nitinchaudhary">
+                <i class="fa-brands fa-codepen fa-2xl"></i></a></li>
+            <li><a class="social-media-icon href="https://medium.com/@nitinchaudhary01">
+                <i class="fa-brands fa-medium fa-2xl"></i></a></li>
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/2bf86bde89.js" crossorigin="anonymous"></script>
 </body>
 </html>
